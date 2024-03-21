@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dangke2"
+    android:orientation="vertical"
+    >
+
+     <Button
+         android:id="@+id/complete_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="完成打卡"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.552"
+         app:layout_constraintStart_toEndOf="@+id/complete_status_text"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.133"
+         android:background="@drawable/button_style"/>
+
+     <TextView
+         android:id="@+id/complete_status_text"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="单词未完成打卡"
+         android:textSize="30sp"
+         android:textColor="#000000"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.08"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.138" />
+
+     <Button
+         android:id="@+id/complete_button_listen"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="完成打卡"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.552"
+         app:layout_constraintStart_toEndOf="@+id/complete_status_listen"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.398"
+         android:background="@drawable/button_style"/>
+
+     <TextView
+         android:id="@+id/complete_status_listen"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="听力未完成打卡"
+         android:textSize="30sp"
+         android:textColor="#000000"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.08"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.395" />
+
+     <TextView
+         android:id="@+id/dk_data"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="已打卡："
+         android:textSize="30sp"
+         android:textColor="#000000"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.27" />
+
+     <TextView
+         android:id="@+id/dk_listen"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="已打卡："
+         android:textSize="30sp"
+         android:textColor="#000000"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.524" />
+
+
+     <Button
+         android:id="@+id/bt_jiluchengji"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button_style"
+         android:text="记录成绩"
+         android:textSize="20sp"
+
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.767" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

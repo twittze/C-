@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListenPlayActivity"
+    android:background="@drawable/beijinglisten">
+
+    <TextView
+        android:id="@+id/listenPlay_listenName"
+        android:layout_width="268dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="music"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/listenPlay_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/circle_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listenPlay_listenName" />
+
+    <ImageButton
+        android:id="@+id/listenPlay_play"
+        android:layout_width="81dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/colorTransparement"
+        android:src="@drawable/bofang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listenPlay_pic" />
+    <ImageButton
+        android:layout_width="81dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="52dp"
+        android:id="@+id/listenPlay_pause"
+        android:src="@drawable/zanting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listenPlay_pic"
+        android:visibility="invisible"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

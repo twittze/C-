@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">English</string>
+    <string name="introduce">\u3000\u3000本app旨在英语学习，可以进行英语听力练习和每日英语单词学习计划写入</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">0.25</string>
+    <string name="two">-0.25</string>
+</resources>
